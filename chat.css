@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* prettier-ignore */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* prettier-ignore */
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo-chat {
+  padding: 1rem;
+  text-align: center;
+  color: rgb(16, 94, 121);
+  font-weight: bold;
+}
+
+#chat-screen {
+  max-width: 720px;
+  margin: 12px auto;
+}
+
+.form-wrapper {
+  margin: 10px;
+}
+
+.messages-list {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-chat-send {
+  display: flex;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+form {
+  box-shadow: 1px 1px 3px gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#message {
+  flex: 1;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form button {
+  flex-basis: 20%;
+  background-color: rgb(80, 186, 221);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.atendente {
+  margin-right: 30%;
+}
+
+.atendente .msg-chat {
+  background-color: rgb(231, 231, 231);
+}
+
+.voce .msg-user {
+  text-align: end;
+}
+
+.voce {
+  margin-left: 30%;
+}
+.message-item {
+  padding: 10px 0;
+}
+
+.msg-user {
+  padding: 5px 0;
+}
+
+.msg-chat {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px gray;
+}
